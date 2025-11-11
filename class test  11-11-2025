@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="exp 8.css">
+</head>
+<body>
+    <table border="3"> <h1> TABLE</h1>
+        <tr class="tr-d">
+            
+           <th WIDTH="20%"> Terms</th>
+            <th WIDTH="20%"> html</th>
+            <th WIDTH="20%">css</th>
+            
+        </tr>
+        <tr class="tr-a">
+            <th>file extention</th>
+            <td >.HTML </td>
+            <td>.css</td>
+            
+        </tr>
+        <tr class="tr-b">
+            <th>definition</th>
+            <td >it is used to define structure </td>
+            <td>it is used to define the colours and other updations</td>
+            
+        </tr>
+        <tr class="tr-c">
+            <th>used areas</th>
+            <td >table , contents </td>
+            <td>colouring , size , border define</td>
+            
+        </tr>
+    <h2>Sarthak gupta </h2>
+    <p>2025b15410067</p>
+</body>
+</html>
+
+
+table{
+    border-style: dotted;
+    border-color: black;
+    height:300px;
+
+}
+.tr-a{
+    color: aqua;
+    background-color: brown;
+}
+.tr-b{
+    color: rgb(226, 85, 183);
+    background-color: rgb(156, 10, 112);
+}
+.tr-c{
+    color: rgb(229, 94, 67);
+    background-color: rgb(148, 135, 219);
+}
+.tr-d{
+    color: rgba(242, 238, 242, 0.664);
+    background-color: rgb(9, 6, 29);
+}
+h1{
+    background-color: antiquewhite;
+}
