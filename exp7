@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exp 7.css">
+</head>
+<body>
+<header class="b1">
+    <p>My <span> Website </span> Navigation</p>
+</header>
+<div class="arow">
+    <ul>
+        <a>Home</a>
+        <a>About</a>
+        <a>Section</a>
+        <a>Contact</a>
+    </ul>
+</div>
+<div class="brow">
+    <ul>
+        <a>Dashboard</a>
+        <a>Profile</a>
+        <a>Messege</a>
+        <a>Logout</a>
+    </ul>
+</div>
+</body>
+</html>
+
+body{
+    border: 2px solid #00144c;      /* border */ 
+  padding: 0px; 
+}
+.b1{
+    background-color:lightgrey ;
+    font-size: large;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: auto;
+    border: 1px solid #d9dff1;      
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+span{
+    color: red;
+}
+ul{
+    container-type: initial;
+    
+}
+.arow a{
+    border: 1px solid #9ba7c6;      
+  padding: 5px;
+  background-color:rgba(0, 0, 255, 0.363);
+}
+
+.brow a{
+    border: 1px solid #bfc4d0;      
+  padding: 5px;
+  background-color:rgba(55, 255, 0, 0.363);
+}
